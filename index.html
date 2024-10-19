@@ -97,7 +97,7 @@
     <div class="subtitle-box">AI Success Cases</div>
     <div class="section-text">
         <p>Here are some notable AI success cases:</p>
-        <p><strong>Google:</strong> Google's AI technology has revolutionized search engines and advertising.</p>
+        <p><strong>Google:</strong> Google's semantic search technology has revolutionized data fetching</p>
         <p><strong>ChatGPT:</strong> Developed by OpenAI, ChatGPT showcases the power of NLP in engaging conversations.</p>
         <p><strong>Airbnb:</strong> Utilizes AI for pricing strategies and personalized recommendations.</p>
         <p><strong>OUR TESTS: </strong> We ran some tests as well using Word2Vec, producing these results</p>
@@ -197,11 +197,11 @@
 
     function toggleBias(biasType) {
         const biasDef = {
-            familiarity: "Favour things they have experience in",
-            loss_aversion: "Favour an avoidance of loss rather than comparable gain",
-            availability: "Availability bias is the tendency to overestimate the likelihood of events based on their availability in memory.",
-            confirmation: "Confirmation bias is the tendency to search for, interpret, favor, and recall information in a way that confirms one's preexisting beliefs.",
-            anchoring: "Anchoring bias occurs when individuals rely too heavily on an initial piece of information (the 'anchor') when making decisions."
+            familiarity: "Favour things they have experience in, rather than choosing something new (Shefrin, 2007)",
+            loss_aversion: "People tend to favour an avoidance of loss rather than comparable gain (Tversky & Kahneman, 1979)",
+            availability: "Availability bias is the tendency to overestimate the likelihood of events based on their availability in memory (Li, Cheng, Liu, 2020)",
+            confirmation: "The tendency to search for, favor, and recall information in a way that confirms one's preexisting beliefs (Ruhl, 2023)",
+            anchoring: "Anchoring bias occurs when individuals rely too heavily on an initial piece of information (the 'anchor') when making decisions (Teovanovic, 2019)"
         };
 
         const biasDefContainer = document.getElementById("bias-def");
@@ -214,9 +214,9 @@
 
     function showVectorizerDefinition(type) {
         const vectorizerDef = {
-            tfidf: "TF-IDF stands for Term Frequency-Inverse Document Frequency. It's a statistical measure used to evaluate the importance of a word in a document relative to a corpus.",
-            word2vec: "Word2Vec is a shallow, two-layer neural network model that transforms words into numerical vectors based on their context in a corpus.",
-            glove: "GloVe is an unsupervised learning algorithm for obtaining vector representations for words by aggregating global word co-occurrence statistics from a corpus."
+            tfidf: "TF-IDF stands for Term Frequency-Inverse Document Frequency. It's a statistical measure used to evaluate the importance of a word in a document relative to a corpus (Sammut, 2011)",
+            word2vec: "Word2Vec is a shallow, two-layer neural network model that transforms words into numerical vectors based on their context in a corpus. Similar words are close together (Mikolov et al., 2011)",
+            glove: "GloVe is an unsupervised learning algorithm for obtaining vector representations for words by aggregating global word co-occurrence statistics from a corpus (Pennington, Socher & Manning, 2014)"
         };
 
         const vectorizerDefContainer = document.getElementById("vectorizer-def");
