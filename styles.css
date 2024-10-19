@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: #e9e7e3; /* Tan background */
+    color: #444f34; /* Dark green text */
+}
+
+/* Title */
+#title {
+    background-color: #444f34; /* Dark green background */
+    color: white; /* White text for the title */
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 28px;
+}
+
+/* Subtitle Section Boxes */
+.subtitle-box {
+    background-color: #444f34; /* Dark green background */
+    color: white; /* White text for subtitles */
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 22px;
+    border-radius: 5px;
+}
+
+/* Section Text Placeholder */
+.section-text {
+    margin: 15px 0;
+}
+
+/* Collapsible Button for Name List */
+.collapsible {
+    background-color: #444f34;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    text-align: center;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.collapsible:hover {
+    background-color: #5a6548;
+}
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #e9e7e3;
+}
+
+.name-list {
+    max-height: 200px;
+    overflow-y: auto;
+    padding: 10px;
+    border: 1px solid #444f34;
+}
+
+/* Bias Button Styles */
+.bias-btn {
+    background-color: #444f34;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.bias-btn:hover {
+    background-color: #5a6548;
+}
+
+/* Vectorizer Button Styles */
+.vectorizer-btn {
+    background-color: #444f34;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.vectorizer-btn:hover {
+    background-color: #5a6548;
+}
+
+/* Plot Area */
+#results {
+    margin-right: 20px;
+    border: 1px solid #444f34;
+    padding: 10px;
+    background-color: #f9f9f9;
+    flex: 0 0 200px;
+}
+
+#plot {
+    flex: 1;
+    height: 500px;
+    border: 2px solid #444f34;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+/* Definition Box Style */
+.definition-box {
+    border: 2px solid #444f34; /* Dark green border */
+    background-color: #f9f9f9; /* Light background for definition */
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    color: #444f34; /* Dark green text */
+}
+
+
