@@ -1,2 +1,0 @@
-# Team_Emerald_SCPU3001_Handout
-Handout
